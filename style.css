@@ -2,8 +2,16 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana;
-  font-size: 15px;
+}
+
+body {
+  background-color: #fff;
+  color:#555;
+  font-family: 'Work Sans', 'Arial', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  text-rendering: optimizeLegibility;
+  overflow-x: hidden;
 }
 
 .clearfix::after {
@@ -40,7 +48,7 @@
 
 h2 {
   font-size: 150%;
-  font-weight: lighter;
+  font-weight: 300;
   color: rgb(0,0,255);
   margin: 0 auto 0 auto;
   text-align: center;
@@ -60,6 +68,7 @@ ul {
   padding-left: 5%;
   padding-top: 3%;
   font-size: 110%;
+  font-weight: 400;
 }
 
 .li_sub{
