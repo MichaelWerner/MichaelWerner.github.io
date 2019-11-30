@@ -49,14 +49,15 @@ body {
 h2 {
   font-size: 150%;
   font-weight: 300;
-  color: rgb(0,0,255);
+  color: rgb(5, 40, 199);
   margin: 0 auto 0 auto;
   text-align: center;
+  padding-top: 15px;
 }
 
 .about_me{
   padding-top: 10px;
-  padding-bottom: 10px;
+  padding-bottom: 15px;
   padding-left: 10%;
 }
 
@@ -64,7 +65,8 @@ ul {
   list-style: none;
 }
 
-.li_main{
+.li_main,
+.info{
   padding-left: 5%;
   padding-top: 3%;
   font-size: 110%;
@@ -77,4 +79,51 @@ padding-left: 10%;
 
 .li_sub:last-child{
   padding-bottom: 10px;
+}
+
+.info{
+  padding-bottom: 5%;
+  font-weight: 300;
+}
+
+/*------------------------*/
+/* Tooltips               */
+/*------------------------*/
+.tooltip {
+  position: relative;
+  border-bottom: none;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 300px;
+  background-color:rgb(51, 45, 68);
+  color: #fff;
+  border-radius: 20px;
+  padding: 2% 2%;
+  font-size: 100%;
+  font-weight: 300;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  left: 35%;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+/*---------------*/
+/* icon          */
+/*---------------*/
+.ion-ios-play {
+  font-size: 90%;
+  color: rgb(5, 40, 199);
+  margin-left: 7px;
+  margin-top: 10px;
+}
+
+.more_info {
+  display: inline-block;
 }
