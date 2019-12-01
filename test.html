@@ -4,11 +4,32 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <!--link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet"-->
-  <link rel="stylesheet" href="css/style.css">
-  <!--link rel="stylesheet" href="css/mediaqueries.css"-->
-  <!--link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,600&display=swap" rel="stylesheet"-->
   <title>Michael Werner</title>
+  <style>
+    .tooltip {
+      position: relative;
+      display: inline-block;
+      border-bottom: 1px dotted black;
+    }
+
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+  }
+
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+  </style>
 </head>
   <body>
       <div class="li_sub tooltip">Progress<p class="more_info"><i class="icon ion-ios-play"></i></p>
