@@ -88,32 +88,11 @@ padding-left: 10%;
   font-weight: 300;
 }
 
-/*------------------------*/
-/* Tooltips               */
-/*------------------------*/
-.tooltip {
-  position: relative;
-  border-bottom: none;
-}
-
-.tooltip .tooltiptext {
-  visibility: hidden;
-  width: 300px;
-  background-color:rgb(51, 45, 68);
-  color: #fff;
-  border-radius: 20px;
-  padding: 2% 2%;
-  font-size: 100%;
-  font-weight: 300;
-
-  /* Position the tooltip */
-  position: absolute;
-  z-index: 1;
-  left: 35%;
-}
-
-.tooltip:hover .tooltiptext {
-  visibility: visible;
+.info_btn{
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-left: 5px;
+  margin-right: 1%;
 }
 
 /*---------------*/
@@ -126,6 +105,7 @@ padding-left: 10%;
   margin-top: 10px;
 }
 
-.more_info {
-  display: inline-block;
+.icon {
+  margin-left: 5%;
 }
+
