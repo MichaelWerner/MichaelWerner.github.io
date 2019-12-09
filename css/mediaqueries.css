@@ -24,3 +24,31 @@
     }
 
 }
+
+/* for safari */
+@media not all and (min-resolution:.001dpcm)
+{ @supports (-webkit-appearance:none) {
+
+  body {
+    font-size: 95%;
+  }
+
+  .about_me{
+    padding-right: 2%;
+  }
+
+  .column-left, .column-right{
+    padding-right: 2%;
+  }
+
+  .li_main{
+    padding-left: 3%;
+    font-size: 95%;
+  }
+
+  .li_sub{
+    font-size: 95%;
+    }
+
+  }
+}
