@@ -26,14 +26,23 @@ body {
   margin: 1% auto 0 auto;
 }
 
-.column-left, .column-right {
-  height: 50%;
-  float: left;
-  width: 49.5%;
-  margin-right: 0.5%;
-  background-color: rgb(241, 241, 241);
-  padding-right: 2%;
+.flex-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
+
+.flex-container > div {
+  background-color: rgb(241, 241, 241);
+  width: 49.9%;
+}
+
+.column-right, column-left{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 
 .header {
   background-color: rgb(214, 214, 214);
